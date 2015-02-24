@@ -8,5 +8,3 @@ The source code license information for this project is in LICENSE.txt
 
 Additional information and license restrictions for third party source
 code are found in the THIRDPARTY-LICENSE-*.txt files.
-
-Instructions for building this project are in README-build.html
