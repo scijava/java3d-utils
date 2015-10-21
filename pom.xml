@@ -6,6 +6,10 @@
 	<artifactId>j3dutils</artifactId>
 	<version>1.6.0-scijava-1-SNAPSHOT</version>
 
+	<name>Java 3D Utils</name>
+	<description>Utility functions for the Java 3D Graphics API</description>
+	<url>https://github.com/scijava/java3d-utils</url>
+
 	<licenses>
 		<license>
 			<name>GPLv2</name>
