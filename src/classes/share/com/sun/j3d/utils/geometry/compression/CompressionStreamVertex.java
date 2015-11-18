@@ -39,10 +39,10 @@
 
 package com.sun.j3d.utils.geometry.compression;
 
-import javax.vecmath.Color3f;
-import javax.vecmath.Color4f;
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Color4f;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3f;
 
 /**
  * This class represents a vertex in a compression stream.  It maintains both

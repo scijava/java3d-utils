@@ -54,8 +54,8 @@
 
 package com.sun.j3d.utils.geometry;
 
-import javax.vecmath.Point2f;
-import javax.vecmath.Tuple2f;
+import org.scijava.vecmath.Point2f;
+import org.scijava.vecmath.Tuple2f;
 
 class Numerics {
 

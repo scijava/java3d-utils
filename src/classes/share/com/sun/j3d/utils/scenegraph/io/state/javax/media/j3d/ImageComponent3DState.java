@@ -44,8 +44,8 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.ImageComponent3D;
-import javax.media.j3d.SceneGraphObject;
+import org.scijava.java3d.ImageComponent3D;
+import org.scijava.java3d.SceneGraphObject;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -123,7 +123,7 @@ public class ImageComponent3DState extends ImageComponentState {
 
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new ImageComponent3D( format, bufferedImages, byReference, yUp );
     }
 

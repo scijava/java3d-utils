@@ -41,9 +41,9 @@ package com.sun.j3d.utils.compression;
 
 import java.io.IOException;
 
-import javax.media.j3d.CompressedGeometry;
-import javax.media.j3d.CompressedGeometryHeader;
-import javax.vecmath.Point3d;
+import org.scijava.java3d.CompressedGeometry;
+import org.scijava.java3d.CompressedGeometryHeader;
+import org.scijava.vecmath.Point3d;
 
 /**
  * A GeometryCompressor takes a stream of geometric elements and

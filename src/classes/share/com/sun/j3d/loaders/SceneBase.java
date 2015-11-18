@@ -42,13 +42,13 @@ package com.sun.j3d.loaders;
 import java.util.Hashtable;
 import java.util.Vector;
 
-import javax.media.j3d.Background;
-import javax.media.j3d.Behavior;
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Fog;
-import javax.media.j3d.Light;
-import javax.media.j3d.Sound;
-import javax.media.j3d.TransformGroup;
+import org.scijava.java3d.Background;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Fog;
+import org.scijava.java3d.Light;
+import org.scijava.java3d.Sound;
+import org.scijava.java3d.TransformGroup;
 
 
 /**

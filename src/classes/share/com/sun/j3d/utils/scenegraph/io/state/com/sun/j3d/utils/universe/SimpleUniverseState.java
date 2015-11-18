@@ -45,13 +45,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Enumeration;
 
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.HiResCoord;
-import javax.media.j3d.Locale;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Matrix4d;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.HiResCoord;
+import org.scijava.java3d.Locale;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.vecmath.Matrix4d;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -267,8 +267,8 @@ public class SimpleUniverseState extends java.lang.Object {
                     ((BranchGroup)symbol.j3dNode).detach();
                 }
             }
-        } catch( javax.media.j3d.CapabilityNotSetException e ) {
-            throw new javax.media.j3d.CapabilityNotSetException(
+        } catch( org.scijava.java3d.CapabilityNotSetException e ) {
+            throw new org.scijava.java3d.CapabilityNotSetException(
 		"Locale BranchGraphs MUST have ALLOW_DETACH capability set" );
         }
     }

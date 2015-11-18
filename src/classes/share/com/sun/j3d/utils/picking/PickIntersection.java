@@ -39,18 +39,18 @@
 
 package com.sun.j3d.utils.picking;
 
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.IndexedGeometryArray;
-import javax.vecmath.Color3b;
-import javax.vecmath.Color3f;
-import javax.vecmath.Color4b;
-import javax.vecmath.Color4f;
-import javax.vecmath.Point3d;
-import javax.vecmath.Point3f;
-import javax.vecmath.TexCoord2f;
-import javax.vecmath.TexCoord3f;
-import javax.vecmath.Vector3d;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.IndexedGeometryArray;
+import org.scijava.vecmath.Color3b;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Color4b;
+import org.scijava.vecmath.Color4f;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.TexCoord2f;
+import org.scijava.vecmath.TexCoord3f;
+import org.scijava.vecmath.Vector3d;
+import org.scijava.vecmath.Vector3f;
 
 /**
  * Holds information about an intersection of a PickShape with a Node
@@ -108,7 +108,7 @@ import javax.vecmath.Vector3f;
  * can be inquired
  * the geometry includes them and the corresponding READ capibility bits are
  * set.
- * <A HREF="PickTool.html#setCapabilities(javax.media.j3d.Node, int)">
+ * <A HREF="PickTool.html#setCapabilities(org.scijava.java3d.Node, int)">
  * <code>PickTool.setCapabilties(Node, int)</code></A>
  * can be used to set the capability bits
  * to allow this data to be inquired.

@@ -45,10 +45,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Hashtable;
 
-import javax.media.j3d.Texture;
-import javax.media.j3d.Texture2D;
-import javax.vecmath.Color3f;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.Texture;
+import org.scijava.java3d.Texture2D;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.loaders.ParsingErrorException;
 import com.sun.j3d.utils.image.TextureLoader;

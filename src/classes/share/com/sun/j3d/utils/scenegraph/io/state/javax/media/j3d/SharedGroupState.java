@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.scenegraph.io.state.javax.media.j3d;
 
-import javax.media.j3d.SharedGroup;
+import org.scijava.java3d.SharedGroup;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -52,7 +52,7 @@ public class SharedGroupState extends GroupState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new SharedGroup();
     }
 

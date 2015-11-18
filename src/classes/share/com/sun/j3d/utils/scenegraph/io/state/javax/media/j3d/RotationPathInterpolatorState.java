@@ -43,11 +43,11 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.RotationPathInterpolator;
-import javax.media.j3d.SceneGraphObject;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Quat4f;
+import org.scijava.java3d.RotationPathInterpolator;
+import org.scijava.java3d.SceneGraphObject;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.vecmath.Quat4f;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -87,7 +87,7 @@ public class RotationPathInterpolatorState extends PathInterpolatorState {
 
     @Override
     public SceneGraphObject createNode( Class j3dClass ) {
-        return createNode( j3dClass, new Class[] { javax.media.j3d.Alpha.class,
+        return createNode( j3dClass, new Class[] { org.scijava.java3d.Alpha.class,
                                                     TransformGroup.class,
                                                     Transform3D.class,
                                                     knots.getClass(),
@@ -101,7 +101,7 @@ public class RotationPathInterpolatorState extends PathInterpolatorState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new RotationPathInterpolator( null, null, new Transform3D(), knots, quats );
     }
 

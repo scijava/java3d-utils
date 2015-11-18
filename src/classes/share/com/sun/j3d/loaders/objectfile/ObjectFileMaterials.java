@@ -55,14 +55,14 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashMap;
 
-import javax.media.j3d.Appearance;
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.Material;
-import javax.media.j3d.Shape3D;
-import javax.media.j3d.TexCoordGeneration;
-import javax.media.j3d.Texture2D;
-import javax.media.j3d.TransparencyAttributes;
-import javax.vecmath.Color3f;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.Material;
+import org.scijava.java3d.Shape3D;
+import org.scijava.java3d.TexCoordGeneration;
+import org.scijava.java3d.Texture2D;
+import org.scijava.java3d.TransparencyAttributes;
+import org.scijava.vecmath.Color3f;
 
 import com.sun.j3d.loaders.ParsingErrorException;
 import com.sun.j3d.utils.image.ImageException;

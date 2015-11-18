@@ -43,8 +43,8 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.Appearance;
-import javax.media.j3d.SceneGraphObject;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.SceneGraphObject;
 
 import com.sun.j3d.utils.geometry.Sphere;
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
@@ -108,7 +108,7 @@ public class SphereState extends PrimitiveState {
                                                 Float.TYPE,
                                                 Integer.TYPE,
                                                 Integer.TYPE,
-                                                javax.media.j3d.Appearance.class },
+                                                org.scijava.java3d.Appearance.class },
                                         new Object[] {
                                                 new Float( radius ),
                                                 new Integer( primflags ),
@@ -119,7 +119,7 @@ public class SphereState extends PrimitiveState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new Sphere( radius, primflags, divisions, null );
     }
 

@@ -41,12 +41,12 @@ package com.sun.j3d.utils.universe ;
 
 import java.awt.Window;
 
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.View;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.View;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.vecmath.Matrix4d;
-import javax.vecmath.Point2d;
+import org.scijava.vecmath.Matrix4d;
+import org.scijava.vecmath.Point2d;
 
 class ConfigScreen extends ConfigObject {
 

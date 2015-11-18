@@ -44,14 +44,14 @@ import java.awt.Event;
 import java.awt.event.MouseEvent;
 import java.util.Enumeration;
 
-import javax.media.j3d.Behavior;
-import javax.media.j3d.Bounds;
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.TransformGroup;
-import javax.media.j3d.WakeupCriterion;
-import javax.media.j3d.WakeupOnAWTEvent;
-import javax.media.j3d.WakeupOr;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.Bounds;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.java3d.WakeupCriterion;
+import org.scijava.java3d.WakeupOnAWTEvent;
+import org.scijava.java3d.WakeupOr;
 
 import com.sun.j3d.utils.picking.PickCanvas;
 import com.sun.j3d.utils.picking.PickTool;

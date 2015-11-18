@@ -43,8 +43,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.DanglingReferenceException;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.DanglingReferenceException;
 
 import com.sun.j3d.utils.scenegraph.io.retained.StreamControl;
 import com.sun.j3d.utils.universe.SimpleUniverse;

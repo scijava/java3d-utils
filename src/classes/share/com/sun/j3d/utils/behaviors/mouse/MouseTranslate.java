@@ -44,12 +44,12 @@ import java.awt.Component;
 import java.awt.event.MouseEvent;
 import java.util.Enumeration;
 
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.media.j3d.WakeupCriterion;
-import javax.media.j3d.WakeupOnAWTEvent;
-import javax.media.j3d.WakeupOnBehaviorPost;
-import javax.vecmath.Vector3d;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.java3d.WakeupCriterion;
+import org.scijava.java3d.WakeupOnAWTEvent;
+import org.scijava.java3d.WakeupOnBehaviorPost;
+import org.scijava.vecmath.Vector3d;
 
 /**
  * MouseTranslate is a Java3D behavior object that lets users control the

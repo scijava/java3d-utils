@@ -44,10 +44,10 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.Map;
 
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.HiResCoord;
-import javax.media.j3d.Locale;
-import javax.media.j3d.View;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.HiResCoord;
+import org.scijava.java3d.Locale;
+import org.scijava.java3d.View;
 
 /**
  * This utility class creates all the necessary objects on the view side of

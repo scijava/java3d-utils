@@ -41,17 +41,17 @@ package com.sun.j3d.utils.pickfast;
 
 import java.awt.event.MouseEvent;
 
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.Locale;
-import javax.media.j3d.PickConeRay;
-import javax.media.j3d.PickCylinderRay;
-import javax.media.j3d.PickRay;
-import javax.media.j3d.PickShape;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.View;
-import javax.vecmath.Point3d;
-import javax.vecmath.Vector3d;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.Locale;
+import org.scijava.java3d.PickConeRay;
+import org.scijava.java3d.PickCylinderRay;
+import org.scijava.java3d.PickRay;
+import org.scijava.java3d.PickShape;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.View;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Vector3d;
 
 /**
  * A subclass of PickTool, simplifies picking using mouse events from a canvas.

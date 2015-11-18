@@ -54,7 +54,7 @@
 
 package com.sun.j3d.utils.geometry;
 
-import javax.vecmath.Point2f;
+import org.scijava.vecmath.Point2f;
 
 class Desperate {
 

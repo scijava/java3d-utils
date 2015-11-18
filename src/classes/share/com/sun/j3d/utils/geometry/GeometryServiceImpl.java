@@ -3,9 +3,9 @@ package com.sun.j3d.utils.geometry;
 
 import java.util.ArrayList;
 
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.GeometryService;
-import javax.vecmath.Point3f;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.GeometryService;
+import org.scijava.vecmath.Point3f;
 
 /**
  * Default implementation of the {@link GeometryService} service interface.

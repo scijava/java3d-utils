@@ -51,11 +51,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Shape3D;
-import javax.vecmath.Point3f;
-import javax.vecmath.TexCoord2f;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Shape3D;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.TexCoord2f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.loaders.IncorrectFormatException;
 import com.sun.j3d.loaders.Loader;

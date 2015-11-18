@@ -45,10 +45,10 @@ import java.io.IOException;
 import java.io.StreamTokenizer;
 import java.util.Vector;
 
-import javax.media.j3d.Behavior;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Matrix4d;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.vecmath.Matrix4d;
 
 import com.sun.j3d.loaders.ParsingErrorException;
 

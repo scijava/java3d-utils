@@ -43,9 +43,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.Appearance;
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.Morph;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.Morph;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -126,7 +126,7 @@ public class MorphState extends LeafState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new Morph( null );
     }
 

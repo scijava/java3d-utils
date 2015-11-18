@@ -44,8 +44,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Vector;
 
-import javax.vecmath.Color3f;
-import javax.vecmath.Vector3f;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 import com.sun.j3d.loaders.IncorrectFormatException;

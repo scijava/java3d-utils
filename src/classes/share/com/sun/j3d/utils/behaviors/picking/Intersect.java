@@ -39,13 +39,13 @@
 
 package com.sun.j3d.utils.behaviors.picking;
 
-import javax.media.j3d.PickPoint;
-import javax.media.j3d.PickRay;
-import javax.media.j3d.PickSegment;
-import javax.vecmath.Point3d;
-import javax.vecmath.Point3f;
-import javax.vecmath.Tuple3d;
-import javax.vecmath.Vector3d;
+import org.scijava.java3d.PickPoint;
+import org.scijava.java3d.PickRay;
+import org.scijava.java3d.PickSegment;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Tuple3d;
+import org.scijava.vecmath.Vector3d;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 

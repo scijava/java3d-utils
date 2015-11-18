@@ -53,14 +53,14 @@ import java.awt.event.WindowEvent;
 import java.lang.reflect.Constructor;
 import java.net.URL;
 
-import javax.media.j3d.AudioDevice;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.GraphicsConfigTemplate3D;
-import javax.media.j3d.PhysicalBody;
-import javax.media.j3d.PhysicalEnvironment;
-import javax.media.j3d.Screen3D;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.View;
+import org.scijava.java3d.AudioDevice;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.GraphicsConfigTemplate3D;
+import org.scijava.java3d.PhysicalBody;
+import org.scijava.java3d.PhysicalEnvironment;
+import org.scijava.java3d.Screen3D;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.View;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 

@@ -55,8 +55,8 @@
 
 package com.sun.j3d.internal;
 
-import javax.vecmath.Point3d;
-import javax.vecmath.Vector3d;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Vector3d;
 
 /**
  * Utility class used to calculate distance. Contains static methods

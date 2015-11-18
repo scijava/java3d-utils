@@ -43,8 +43,8 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.Appearance;
-import javax.media.j3d.SceneGraphObject;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.SceneGraphObject;
 
 import com.sun.j3d.utils.geometry.Cone;
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
@@ -138,7 +138,7 @@ public class ConeState extends PrimitiveState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new Cone( radius, height, primflags, xdivision, ydivision, null );
     }
 

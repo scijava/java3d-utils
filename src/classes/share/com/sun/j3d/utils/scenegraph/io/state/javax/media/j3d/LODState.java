@@ -43,8 +43,8 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.LOD;
-import javax.media.j3d.Switch;
+import org.scijava.java3d.LOD;
+import org.scijava.java3d.Switch;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

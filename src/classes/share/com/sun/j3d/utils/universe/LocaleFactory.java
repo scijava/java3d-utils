@@ -39,9 +39,9 @@
 
 package com.sun.j3d.utils.universe;
 
-import javax.media.j3d.HiResCoord;
-import javax.media.j3d.Locale;
-import javax.media.j3d.VirtualUniverse;
+import org.scijava.java3d.HiResCoord;
+import org.scijava.java3d.Locale;
+import org.scijava.java3d.VirtualUniverse;
 
 /**
  * This interface defines a factory for creating Locale objects in a

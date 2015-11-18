@@ -42,7 +42,7 @@ package com.sun.j3d.internal;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import javax.media.j3d.J3DBuffer;
+import org.scijava.java3d.J3DBuffer;
 
 /**
  * NIO Buffers are new in Java 1.4 but we need to run on 1.3
@@ -69,7 +69,7 @@ public class ByteBufferWrapper extends BufferWrapper {
 
     /**
      * Constructor initializes buffer with a
-     * javax.media.j3d.J3DBuffer object.
+     * org.scijava.java3d.J3DBuffer object.
      */
     public ByteBufferWrapper(J3DBuffer b) {
 	buffer = (ByteBuffer)(b.getBuffer());

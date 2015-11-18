@@ -41,8 +41,8 @@ package com.sun.j3d.utils.geometry;
 
 import java.util.ArrayList;
 
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3f;
 
 /**
  * The NormalGenerator utility will calculate and fill in the normals

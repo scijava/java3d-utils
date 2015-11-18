@@ -66,13 +66,13 @@ class are then used for IO. The system does store the class name of
 the original object.
 <P>For example:
 <pre><font size=-1>
-public class MyBranchGroup extends javax.media.j3d.BranchGroup {
+public class MyBranchGroup extends org.scijava.java3d.BranchGroup {
     private int myData;
     ....
 }
 </font></pre>
 <P>When the Scene Graph is written to a file and this node is
-encountered, the superclass javax.media.j3d.BranchGroup will be used
+encountered, the superclass org.scijava.java3d.BranchGroup will be used
 to store all the state for the object so any children of
 MyBranchGroup, the capabilities, etc. will be stored, but myData will
 be lost. When the scene graph is loaded, MyBranchGroup will be
@@ -125,7 +125,7 @@ called in this order
 IO are show....</P>
 <h2>Behavior Example</h2>
 <pre><blockquote><font size=-1>
-public class BehaviorIO extends javax.media.j3d.Behavior implements SceneGraphIO
+public class BehaviorIO extends org.scijava.java3d.Behavior implements SceneGraphIO
     private TransformGroup target;   // The TG on which this behavior acts
     private int targetRef;  // Object Reference for target
 

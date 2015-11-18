@@ -42,8 +42,8 @@
 
 import java.util.Enumeration;
 
-import javax.media.j3d.Alpha;
-import javax.media.j3d.Switch;
+import org.scijava.java3d.Alpha;
+import org.scijava.java3d.Switch;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 

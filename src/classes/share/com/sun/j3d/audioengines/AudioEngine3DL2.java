@@ -39,10 +39,10 @@
 
 package com.sun.j3d.audioengines;
 
-import javax.media.j3d.AudioDevice3DL2;
-import javax.media.j3d.AuralAttributes;
-import javax.media.j3d.PhysicalEnvironment;
-import javax.media.j3d.Sound;
+import org.scijava.java3d.AudioDevice3DL2;
+import org.scijava.java3d.AuralAttributes;
+import org.scijava.java3d.PhysicalEnvironment;
+import org.scijava.java3d.Sound;
 
 
 /**

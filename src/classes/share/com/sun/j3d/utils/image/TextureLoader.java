@@ -58,11 +58,11 @@ import java.io.IOException;
 import java.net.URL;
 
 import javax.imageio.ImageIO;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.ImageComponent;
-import javax.media.j3d.ImageComponent2D;
-import javax.media.j3d.Texture;
-import javax.media.j3d.Texture2D;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.ImageComponent;
+import org.scijava.java3d.ImageComponent2D;
+import org.scijava.java3d.Texture;
+import org.scijava.java3d.Texture2D;
 
 /**
  * This class is used for loading a texture from an Image or BufferedImage.

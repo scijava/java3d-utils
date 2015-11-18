@@ -39,8 +39,8 @@
 
 package com.sun.j3d.utils.universe ;
 
-import javax.media.j3d.Sensor;
-import javax.vecmath.Point3d;
+import org.scijava.java3d.Sensor;
+import org.scijava.vecmath.Point3d;
 
 class ConfigSensor extends ConfigObject {
 

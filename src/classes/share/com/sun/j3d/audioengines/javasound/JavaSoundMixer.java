@@ -46,13 +46,13 @@
 
 package com.sun.j3d.audioengines.javasound;
 
-import javax.media.j3d.AudioDevice3D;
-import javax.media.j3d.MediaContainer;
-import javax.media.j3d.PhysicalEnvironment;
-import javax.media.j3d.Sound;
-import javax.media.j3d.Transform3D;
-import javax.vecmath.Point3d;
-import javax.vecmath.Vector3d;
+import org.scijava.java3d.AudioDevice3D;
+import org.scijava.java3d.MediaContainer;
+import org.scijava.java3d.PhysicalEnvironment;
+import org.scijava.java3d.Sound;
+import org.scijava.java3d.Transform3D;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Vector3d;
 
 import com.sun.j3d.audioengines.AudioEngine3DL2;
 import com.sun.j3d.audioengines.Sample;

@@ -39,13 +39,13 @@
 
 package com.sun.j3d.utils.behaviors.interpolators;
 
-import javax.media.j3d.Alpha;
-import javax.media.j3d.Node;
-import javax.media.j3d.NodeComponent;
-import javax.media.j3d.RestrictedAccessException;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.media.j3d.TransformInterpolator;
+import org.scijava.java3d.Alpha;
+import org.scijava.java3d.Node;
+import org.scijava.java3d.NodeComponent;
+import org.scijava.java3d.RestrictedAccessException;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.java3d.TransformInterpolator;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 

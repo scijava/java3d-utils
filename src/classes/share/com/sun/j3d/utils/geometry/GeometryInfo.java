@@ -44,31 +44,31 @@ import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 import java.util.HashMap;
 
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.IndexedGeometryArray;
-import javax.media.j3d.IndexedQuadArray;
-import javax.media.j3d.IndexedTriangleArray;
-import javax.media.j3d.IndexedTriangleFanArray;
-import javax.media.j3d.IndexedTriangleStripArray;
-import javax.media.j3d.J3DBuffer;
-import javax.media.j3d.QuadArray;
-import javax.media.j3d.TriangleArray;
-import javax.media.j3d.TriangleFanArray;
-import javax.media.j3d.TriangleStripArray;
-import javax.vecmath.Color3b;
-import javax.vecmath.Color3f;
-import javax.vecmath.Color4b;
-import javax.vecmath.Color4f;
-import javax.vecmath.Point2f;
-import javax.vecmath.Point3d;
-import javax.vecmath.Point3f;
-import javax.vecmath.TexCoord2f;
-import javax.vecmath.TexCoord3f;
-import javax.vecmath.TexCoord4f;
-import javax.vecmath.Tuple2f;
-import javax.vecmath.Tuple3f;
-import javax.vecmath.Tuple4f;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.IndexedGeometryArray;
+import org.scijava.java3d.IndexedQuadArray;
+import org.scijava.java3d.IndexedTriangleArray;
+import org.scijava.java3d.IndexedTriangleFanArray;
+import org.scijava.java3d.IndexedTriangleStripArray;
+import org.scijava.java3d.J3DBuffer;
+import org.scijava.java3d.QuadArray;
+import org.scijava.java3d.TriangleArray;
+import org.scijava.java3d.TriangleFanArray;
+import org.scijava.java3d.TriangleStripArray;
+import org.scijava.vecmath.Color3b;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Color4b;
+import org.scijava.vecmath.Color4f;
+import org.scijava.vecmath.Point2f;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.TexCoord2f;
+import org.scijava.vecmath.TexCoord3f;
+import org.scijava.vecmath.TexCoord4f;
+import org.scijava.vecmath.Tuple2f;
+import org.scijava.vecmath.Tuple3f;
+import org.scijava.vecmath.Tuple4f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 
@@ -85,7 +85,7 @@ import com.sun.j3d.internal.J3dUtilsI18N;
  * CompressionSteam and generate a CompressedGeometry object from the
  * geometry.<p>
  *         Geometry is loaded into a GeometryInfo in a manner similar to the
- * <a href="../../../../../javax/media/j3d/GeometryArray.html">
+ * <a href="../../../../../org/scijava/java3d/GeometryArray.html">
  * GeometryArray</a> methods.  The constructor for the GeometryInfo takes a flag
  * that specifies the kind of data being loaded.  The vertex data is
  * specified using methods that are similar to the GeometryArray methods, but
@@ -136,7 +136,7 @@ import com.sun.j3d.internal.J3dUtilsI18N;
  * @see Stripifier
  * @see com.sun.j3d.utils.compression.CompressionStream
  * @see com.sun.j3d.utils.compression.GeometryCompressor
- * @see javax.media.j3d.GeometryArray
+ * @see org.scijava.java3d.GeometryArray
  */
 
 public class GeometryInfo {
@@ -950,7 +950,7 @@ public class GeometryInfo {
   /**
    * Sets the mapping between texture coordinate sets and texture units.
    * See the
-   * <a href="../../../../../javax/media/j3d/GeometryArray.html#texCoordSetMap">
+   * <a href="../../../../../org/scijava/java3d/GeometryArray.html#texCoordSetMap">
    * GeometryArray constructor </a> for further details.
    * <p> <b>Note:</b> If the texCoordSetMap is not set, multi-texturing is
    * turned off. Only the texture coordinate set at index 0 (if set) will be
@@ -966,7 +966,7 @@ public class GeometryInfo {
   /**
    * Returns a reference to the texture coordinate set map.
    * See the
-   * <a href="../../../../../javax/media/j3d/GeometryArray.html#texCoordSetMap">
+   * <a href="../../../../../org/scijava/java3d/GeometryArray.html#texCoordSetMap">
    * GeometryArray constructor </a> for further details.
    */
   public int[] getTexCoordSetMap() {
@@ -1803,19 +1803,19 @@ public class GeometryInfo {
    */
   Object[] allocateArray(Object data[], int num) {
       Object newData[] = null;
-      if (data instanceof javax.vecmath.Point3f[]) {
+      if (data instanceof org.scijava.vecmath.Point3f[]) {
 	  newData = new Point3f[num];
-      } else if (data instanceof javax.vecmath.Vector3f[]) {
+      } else if (data instanceof org.scijava.vecmath.Vector3f[]) {
 	  newData = new Vector3f[num];
-      } else if (data instanceof javax.vecmath.Color3f[]) {
+      } else if (data instanceof org.scijava.vecmath.Color3f[]) {
 	  newData = new Color3f[num];
-      } else if (data instanceof javax.vecmath.Color4f[]) {
+      } else if (data instanceof org.scijava.vecmath.Color4f[]) {
 	  newData = new Color4f[num];
-      } else if (data instanceof javax.vecmath.TexCoord2f[]) {
+      } else if (data instanceof org.scijava.vecmath.TexCoord2f[]) {
 	  newData = new TexCoord2f[num];
-      } else if (data instanceof javax.vecmath.TexCoord3f[]) {
+      } else if (data instanceof org.scijava.vecmath.TexCoord3f[]) {
 	  newData = new TexCoord3f[num];
-      } else if (data instanceof javax.vecmath.TexCoord4f[]) {
+      } else if (data instanceof org.scijava.vecmath.TexCoord4f[]) {
 	  newData = new TexCoord4f[num];
       } else if (data instanceof IndexRow[]) {
 	  // Hack so we can use compactData for coordIndexOnly

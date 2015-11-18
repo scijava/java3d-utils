@@ -39,8 +39,8 @@
 
 package com.sun.j3d.loaders.lw3d;
 
-import javax.media.j3d.Alpha;
-import javax.media.j3d.Interpolator;
+import org.scijava.java3d.Alpha;
+import org.scijava.java3d.Interpolator;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 

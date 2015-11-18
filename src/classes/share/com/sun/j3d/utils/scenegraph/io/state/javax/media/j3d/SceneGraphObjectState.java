@@ -49,7 +49,7 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.lang.reflect.Constructor;
 
-import javax.media.j3d.SceneGraphObject;
+import org.scijava.java3d.SceneGraphObject;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SGIORuntimeException;

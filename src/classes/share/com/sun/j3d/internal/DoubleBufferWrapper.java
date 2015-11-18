@@ -41,7 +41,7 @@ package com.sun.j3d.internal;
 
 import java.nio.DoubleBuffer;
 
-import javax.media.j3d.J3DBuffer;
+import org.scijava.java3d.J3DBuffer;
 
 /**
  * NIO Buffers are new in Java 1.4 but we need to run on 1.3
@@ -68,7 +68,7 @@ public class DoubleBufferWrapper extends BufferWrapper {
 
     /**
      * Constructor initializes buffer with a
-     * javax.media.j3d.J3DBuffer object.
+     * org.scijava.java3d.J3DBuffer object.
      */
     public DoubleBufferWrapper(J3DBuffer b) {
         buffer = (DoubleBuffer)(b.getBuffer());

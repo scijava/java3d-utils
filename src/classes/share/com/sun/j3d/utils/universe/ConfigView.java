@@ -43,10 +43,10 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import javax.media.j3d.PhysicalBody;
-import javax.media.j3d.PhysicalEnvironment;
-import javax.media.j3d.View;
-import javax.vecmath.Point3d;
+import org.scijava.java3d.PhysicalBody;
+import org.scijava.java3d.PhysicalEnvironment;
+import org.scijava.java3d.View;
+import org.scijava.vecmath.Point3d;
 
 class ConfigView extends ConfigObject {
     /**

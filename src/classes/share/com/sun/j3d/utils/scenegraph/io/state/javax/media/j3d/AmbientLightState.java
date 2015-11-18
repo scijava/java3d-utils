@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.scenegraph.io.state.javax.media.j3d;
 
-import javax.media.j3d.AmbientLight;
+import org.scijava.java3d.AmbientLight;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -50,7 +50,7 @@ public class AmbientLightState extends LightState {
 	super( symbol, control );
     }
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new AmbientLight();
     }
 

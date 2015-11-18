@@ -46,8 +46,8 @@
 
 package com.sun.j3d.audioengines.javasound;
 
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.audioengines.AuralParameters;
 

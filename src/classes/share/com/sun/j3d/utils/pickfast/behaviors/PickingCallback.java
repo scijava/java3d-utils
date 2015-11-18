@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.pickfast.behaviors;
 
-import javax.media.j3d.TransformGroup;
+import org.scijava.java3d.TransformGroup;
 
 /**
  * The PickingCallback interface allows a class to be notified when a

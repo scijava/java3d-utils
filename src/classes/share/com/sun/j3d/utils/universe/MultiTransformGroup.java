@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.universe;
 
-import javax.media.j3d.TransformGroup;
+import org.scijava.java3d.TransformGroup;
 
 /**
  * A convenience class that effectively creates a series of TransformGroup

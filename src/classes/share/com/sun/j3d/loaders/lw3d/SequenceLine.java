@@ -46,17 +46,17 @@ import java.io.StreamTokenizer;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
-import javax.media.j3d.Alpha;
-import javax.media.j3d.Behavior;
-import javax.media.j3d.BoundingSphere;
-import javax.media.j3d.Group;
-import javax.media.j3d.Link;
-import javax.media.j3d.Shape3D;
-import javax.media.j3d.SharedGroup;
-import javax.media.j3d.Switch;
-import javax.media.j3d.SwitchValueInterpolator;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Point3d;
+import org.scijava.java3d.Alpha;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.BoundingSphere;
+import org.scijava.java3d.Group;
+import org.scijava.java3d.Link;
+import org.scijava.java3d.Shape3D;
+import org.scijava.java3d.SharedGroup;
+import org.scijava.java3d.Switch;
+import org.scijava.java3d.SwitchValueInterpolator;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.vecmath.Point3d;
 
 import com.sun.j3d.loaders.IncorrectFormatException;
 import com.sun.j3d.loaders.ParsingErrorException;

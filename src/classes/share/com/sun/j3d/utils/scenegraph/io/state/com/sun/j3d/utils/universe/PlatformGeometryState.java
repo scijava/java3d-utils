@@ -52,7 +52,7 @@ public class PlatformGeometryState extends BranchGroupState {
 
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new PlatformGeometry();
     }
 

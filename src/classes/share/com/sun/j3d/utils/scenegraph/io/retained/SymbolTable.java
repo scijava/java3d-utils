@@ -49,7 +49,7 @@ import java.util.LinkedList;
 import java.util.ListIterator;
 import java.util.Stack;
 
-import javax.media.j3d.SceneGraphObject;
+import org.scijava.java3d.SceneGraphObject;
 
 import com.sun.j3d.utils.scenegraph.io.NamedObjectException;
 import com.sun.j3d.utils.scenegraph.io.ObjectNotLoadedException;
@@ -343,7 +343,7 @@ public class SymbolTable extends java.lang.Object implements SceneGraphObjectRef
             data = new SymbolTableData( nodeID++, node, null, currentBranchGraphID );
             j3dNodeIndex.put( node, data );
             nodeIDIndex.add( data );
-        } else if (data.j3dNode instanceof javax.media.j3d.Node) {
+        } else if (data.j3dNode instanceof org.scijava.java3d.Node) {
             throw new RuntimeException( "Object already in Symbol table "+ node );
         }
 
@@ -500,7 +500,7 @@ public class SymbolTable extends java.lang.Object implements SceneGraphObjectRef
         SymbolTableData symbol = getSymbol( node );
 
         if (symbol==null) {
-            if (node instanceof javax.media.j3d.Node) {
+            if (node instanceof org.scijava.java3d.Node) {
                 symbol = createDanglingSymbol( node );
                 if (symbol.branchGraphID != currentBranchGraphID  ) {
                     //System.out.println("------------- Adding Reference "+symbol.nodeID+" "+node );  // TODO - remove
@@ -527,12 +527,12 @@ public class SymbolTable extends java.lang.Object implements SceneGraphObjectRef
                 sharedNodes.add( symbol );
             symbol.referenceCount++;
 
-            if (symbol.j3dNode instanceof javax.media.j3d.NodeComponent && symbol.referenceCount>1) {
+            if (symbol.j3dNode instanceof org.scijava.java3d.NodeComponent && symbol.referenceCount>1) {
                 ((NodeComponentState)symbol.nodeState).addSubReference();
             }
 
             if (symbol.branchGraphID != currentBranchGraphID &&
-                symbol.j3dNode instanceof javax.media.j3d.Node ) {
+                symbol.j3dNode instanceof org.scijava.java3d.Node ) {
                     // System.out.println("------------- Adding Reference "+symbol.nodeID+" "+symbol.j3dNode );    // TODO - remove
                     addInterGraphDependency( symbol );
                 }
@@ -840,7 +840,7 @@ public class SymbolTable extends java.lang.Object implements SceneGraphObjectRef
  * Use only during the load cycle
  */
     @Override
-    public javax.media.j3d.SceneGraphObject resolveReference(int nodeID) {
+    public org.scijava.java3d.SceneGraphObject resolveReference(int nodeID) {
         return getJ3dNode( nodeID );
     }
 

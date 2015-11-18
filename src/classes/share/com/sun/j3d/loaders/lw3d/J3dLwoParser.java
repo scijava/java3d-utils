@@ -44,17 +44,17 @@ import java.net.URL;
 import java.util.Enumeration;
 import java.util.Vector;
 
-import javax.media.j3d.Appearance;
-import javax.media.j3d.ColoringAttributes;
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.Material;
-import javax.media.j3d.PointAttributes;
-import javax.media.j3d.Shape3D;
-import javax.media.j3d.Texture;
-import javax.media.j3d.TextureAttributes;
-import javax.media.j3d.TransparencyAttributes;
-import javax.vecmath.Color3f;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.ColoringAttributes;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.Material;
+import org.scijava.java3d.PointAttributes;
+import org.scijava.java3d.Shape3D;
+import org.scijava.java3d.Texture;
+import org.scijava.java3d.TextureAttributes;
+import org.scijava.java3d.TransparencyAttributes;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.loaders.IncorrectFormatException;
 import com.sun.j3d.utils.geometry.GeometryInfo;
@@ -115,7 +115,7 @@ class J3dLwoParser extends LwoParser {
 
 	for (Enumeration e = shapeList.elements();
 	     e.hasMoreElements() ;) {
-	    int vertexFormat = javax.media.j3d.GeometryArray.COORDINATES;
+	    int vertexFormat = org.scijava.java3d.GeometryArray.COORDINATES;
 	    ShapeHolder shape = (ShapeHolder)e.nextElement();
 	    debugOutputLn(LINE_TRACE, "about to create Arrays for Shape");
 	    debugOutputLn(VALUES, "shape = " + shape);
@@ -158,7 +158,7 @@ class J3dLwoParser extends LwoParser {
 		// This case happens if the objects are points
 		// Note that points are colored, not lit
 		object = new
-		    javax.media.j3d.PointArray(vertexCount, vertexFormat);
+		    org.scijava.java3d.PointArray(vertexCount, vertexFormat);
 		object.setCoordinates(0, shape.coordsArray);
 		ColoringAttributes colorAtt =
 		    new ColoringAttributes(surf.getColor(),
@@ -173,7 +173,7 @@ class J3dLwoParser extends LwoParser {
 		// This case happens if the objects are lines
 		// Note that lines are colored, not lit
 		debugOutputLn(LINE_TRACE, "Creating IndexedLineArray");
-		object = new javax.media.j3d.LineArray(vertexCount,
+		object = new org.scijava.java3d.LineArray(vertexCount,
 						       vertexFormat);
 		object.setCoordinates(0, shape.coordsArray);
 		ColoringAttributes colorAtt =
@@ -185,7 +185,7 @@ class J3dLwoParser extends LwoParser {
 		// This is the case for any polygonal objects
 		debugOutputLn(LINE_TRACE, "Creating IndexedTriFanArray");
 				// create triFanArray
-		vertexFormat |= javax.media.j3d.GeometryArray.NORMALS;
+		vertexFormat |= org.scijava.java3d.GeometryArray.NORMALS;
 
 		debugOutputLn(LINE_TRACE, "about to process vertices/indices, facetIndices = " +
 			      shape.facetIndices);
@@ -242,7 +242,7 @@ class J3dLwoParser extends LwoParser {
 				  vertexCount + ", " +
 				  shape.facetSizes.length);
 		    object = new
-			javax.media.j3d.TriangleFanArray(vertexCount,
+			org.scijava.java3d.TriangleFanArray(vertexCount,
 							 vertexFormat,
 							 shape.facetSizes);
 		    object.setCoordinates(0, shape.coordsArray);

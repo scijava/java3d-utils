@@ -43,9 +43,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.SceneGraphObject;
-import javax.media.j3d.Switch;
-import javax.media.j3d.SwitchValueInterpolator;
+import org.scijava.java3d.SceneGraphObject;
+import org.scijava.java3d.Switch;
+import org.scijava.java3d.SwitchValueInterpolator;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -88,14 +88,14 @@ public class SwitchValueInterpolatorState extends InterpolatorState {
 
     @Override
     public SceneGraphObject createNode( Class j3dClass ) {
-        return createNode( j3dClass, new Class[] { javax.media.j3d.Alpha.class,
-                                                    javax.media.j3d.Switch.class },
+        return createNode( j3dClass, new Class[] { org.scijava.java3d.Alpha.class,
+                                                    org.scijava.java3d.Switch.class },
                                       new Object[] { null,
                                                      null } );
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new SwitchValueInterpolator( null, null );
     }
 

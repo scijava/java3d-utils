@@ -43,10 +43,10 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.CompressedGeometry;
-import javax.media.j3d.CompressedGeometryHeader;
-import javax.media.j3d.SceneGraphObject;
-import javax.vecmath.Point3d;
+import org.scijava.java3d.CompressedGeometry;
+import org.scijava.java3d.CompressedGeometryHeader;
+import org.scijava.java3d.SceneGraphObject;
+import org.scijava.vecmath.Point3d;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

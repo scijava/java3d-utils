@@ -43,11 +43,11 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.ImageComponent;
-import javax.media.j3d.Texture;
-import javax.media.j3d.TextureCubeMap;
-import javax.vecmath.Color4f;
-import javax.vecmath.Point3f;
+import org.scijava.java3d.ImageComponent;
+import org.scijava.java3d.Texture;
+import org.scijava.java3d.TextureCubeMap;
+import org.scijava.vecmath.Color4f;
+import org.scijava.vecmath.Point3f;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

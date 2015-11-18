@@ -43,9 +43,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.Font3D;
-import javax.media.j3d.Text3D;
-import javax.vecmath.Point3f;
+import org.scijava.java3d.Font3D;
+import org.scijava.java3d.Text3D;
+import org.scijava.vecmath.Point3f;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -116,7 +116,7 @@ public class Text3DState extends GeometryState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new Text3D();
     }
 

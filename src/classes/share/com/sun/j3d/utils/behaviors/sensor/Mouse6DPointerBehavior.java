@@ -41,15 +41,15 @@ package com.sun.j3d.utils.behaviors.sensor ;
 
 import java.util.Enumeration;
 
-import javax.media.j3d.Behavior;
-import javax.media.j3d.Sensor;
-import javax.media.j3d.Shape3D;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.media.j3d.WakeupCondition;
-import javax.media.j3d.WakeupOnElapsedFrames;
-import javax.vecmath.Point3d;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.Sensor;
+import org.scijava.java3d.Shape3D;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.java3d.WakeupCondition;
+import org.scijava.java3d.WakeupOnElapsedFrames;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Vector3f;
 
 /**
  * This class provides basic behavior for a 6DOF mouse sensor.  It

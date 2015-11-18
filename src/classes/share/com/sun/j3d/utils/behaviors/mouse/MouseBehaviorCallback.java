@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.behaviors.mouse;
 
-import javax.media.j3d.Transform3D;
+import org.scijava.java3d.Transform3D;
 
 /**
  * The MouseBehaviorCallback interface allows a class to be notified

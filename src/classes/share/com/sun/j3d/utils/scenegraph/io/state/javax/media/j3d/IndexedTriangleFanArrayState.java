@@ -43,8 +43,8 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.IndexedTriangleFanArray;
-import javax.media.j3d.SceneGraphObject;
+import org.scijava.java3d.IndexedTriangleFanArray;
+import org.scijava.java3d.SceneGraphObject;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -84,7 +84,7 @@ public class IndexedTriangleFanArrayState extends IndexedGeometryStripArrayState
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new IndexedTriangleFanArray( vertexCount, vertexFormat, texCoordSetCount, texCoordSetMap, indexCount, stripIndexCounts );
     }
 

@@ -39,10 +39,10 @@
 
 package com.sun.j3d.utils.scenegraph.io.state.javax.media.j3d;
 
-import javax.media.j3d.ImageComponent;
-import javax.media.j3d.ImageComponent2D;
-import javax.media.j3d.SceneGraphObject;
-import javax.media.j3d.TextureCubeMap;
+import org.scijava.java3d.ImageComponent;
+import org.scijava.java3d.ImageComponent2D;
+import org.scijava.java3d.SceneGraphObject;
+import org.scijava.java3d.TextureCubeMap;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -108,7 +108,7 @@ public class TextureCubeMapState extends TextureState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new TextureCubeMap( mipMapMode, format, width, boundaryWidth );
     }
 }

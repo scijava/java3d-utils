@@ -43,8 +43,8 @@ import java.text.DecimalFormat;
 import java.text.FieldPosition;
 import java.util.Collection;
 
-import javax.vecmath.Matrix3d;
-import javax.vecmath.Matrix4d;
+import org.scijava.vecmath.Matrix3d;
+import org.scijava.vecmath.Matrix4d;
 
 /**
  * Contains the elements which compose a configuration file command,

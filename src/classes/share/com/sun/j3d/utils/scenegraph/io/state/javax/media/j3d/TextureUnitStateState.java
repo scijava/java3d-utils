@@ -43,10 +43,10 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.TexCoordGeneration;
-import javax.media.j3d.Texture;
-import javax.media.j3d.TextureAttributes;
-import javax.media.j3d.TextureUnitState;
+import org.scijava.java3d.TexCoordGeneration;
+import org.scijava.java3d.Texture;
+import org.scijava.java3d.TextureAttributes;
+import org.scijava.java3d.TextureUnitState;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -102,7 +102,7 @@ public class TextureUnitStateState extends NodeComponentState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new TextureUnitState();
     }
 

@@ -43,9 +43,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.ConeSound;
-import javax.media.j3d.SceneGraphObject;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.ConeSound;
+import org.scijava.java3d.SceneGraphObject;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

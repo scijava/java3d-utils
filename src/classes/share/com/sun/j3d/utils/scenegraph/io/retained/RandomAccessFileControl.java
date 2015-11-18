@@ -44,9 +44,9 @@ import java.io.DataOutput;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.CapabilityNotSetException;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.CapabilityNotSetException;
 
 import com.sun.j3d.utils.scenegraph.io.UnsupportedUniverseException;
 import com.sun.j3d.utils.scenegraph.io.state.javax.media.j3d.BranchGroupState;

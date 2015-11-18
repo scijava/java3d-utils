@@ -49,8 +49,8 @@ package com.sun.j3d.audioengines.javasound;
 import java.io.InputStream;
 import java.net.URL;
 
-import javax.media.j3d.MediaContainer;
-import javax.media.j3d.View;
+import org.scijava.java3d.MediaContainer;
+import org.scijava.java3d.View;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.DataLine;
 

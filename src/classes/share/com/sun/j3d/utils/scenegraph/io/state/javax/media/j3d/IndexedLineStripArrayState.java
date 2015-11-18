@@ -39,8 +39,8 @@
 
 package com.sun.j3d.utils.scenegraph.io.state.javax.media.j3d;
 
-import javax.media.j3d.IndexedLineStripArray;
-import javax.media.j3d.SceneGraphObject;
+import org.scijava.java3d.IndexedLineStripArray;
+import org.scijava.java3d.SceneGraphObject;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -69,7 +69,7 @@ public class IndexedLineStripArrayState extends IndexedGeometryStripArrayState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new IndexedLineStripArray( vertexCount, vertexFormat, texCoordSetCount, texCoordSetMap, indexCount, stripIndexCounts );
     }
 

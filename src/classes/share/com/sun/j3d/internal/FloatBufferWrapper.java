@@ -41,7 +41,7 @@ package com.sun.j3d.internal;
 
 import java.nio.FloatBuffer;
 
-import javax.media.j3d.J3DBuffer;
+import org.scijava.java3d.J3DBuffer;
 
 /**
  * NIO Buffers are new in Java 1.4 but we need to run on 1.3
@@ -68,9 +68,9 @@ public class FloatBufferWrapper extends BufferWrapper {
 
     /**
      * Constructor initializes buffer with a
-     * javax.media.j3d.J3DBuffer object.
+     * org.scijava.java3d.J3DBuffer object.
      */
-    public FloatBufferWrapper(javax.media.j3d.J3DBuffer b) {
+    public FloatBufferWrapper(org.scijava.java3d.J3DBuffer b) {
         this.buffer = (FloatBuffer)(b.getBuffer());
     }
 

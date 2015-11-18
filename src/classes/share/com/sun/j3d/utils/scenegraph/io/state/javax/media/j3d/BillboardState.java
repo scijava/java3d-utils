@@ -43,11 +43,11 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.Billboard;
-import javax.media.j3d.SceneGraphObject;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.Billboard;
+import org.scijava.java3d.SceneGraphObject;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

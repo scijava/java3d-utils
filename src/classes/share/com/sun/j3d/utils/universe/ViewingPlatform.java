@@ -42,13 +42,13 @@ package com.sun.j3d.utils.universe;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Group;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.media.j3d.View;
-import javax.media.j3d.ViewPlatform;
-import javax.vecmath.Vector3d;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Group;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.java3d.View;
+import org.scijava.java3d.ViewPlatform;
+import org.scijava.vecmath.Vector3d;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 import com.sun.j3d.utils.behaviors.vp.ViewPlatformBehavior;

@@ -39,8 +39,8 @@
 
 package com.sun.j3d.utils.geometry;
 
-import javax.media.j3d.QuadArray;
-import javax.media.j3d.Shape3D;
+import org.scijava.java3d.QuadArray;
+import org.scijava.java3d.Shape3D;
 
 /**
  * Simple color-per-vertex cube with a different color for each face

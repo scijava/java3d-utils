@@ -43,10 +43,10 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.TextureAttributes;
-import javax.media.j3d.Transform3D;
-import javax.vecmath.Color4f;
-import javax.vecmath.Matrix4d;
+import org.scijava.java3d.TextureAttributes;
+import org.scijava.java3d.Transform3D;
+import org.scijava.vecmath.Color4f;
+import org.scijava.vecmath.Matrix4d;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -129,7 +129,7 @@ public class TextureAttributesState extends NodeComponentState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new TextureAttributes();
     }
 

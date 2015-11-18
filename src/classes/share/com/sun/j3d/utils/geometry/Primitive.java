@@ -41,11 +41,11 @@ package com.sun.j3d.utils.geometry;
 
 import java.util.Hashtable;
 
-import javax.media.j3d.Appearance;
-import javax.media.j3d.Group;
-import javax.media.j3d.Material;
-import javax.media.j3d.Shape3D;
-import javax.vecmath.Color3f;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.Group;
+import org.scijava.java3d.Material;
+import org.scijava.java3d.Shape3D;
+import org.scijava.vecmath.Color3f;
 
 /**
  * Base class for all Java 3D primitives. By default all primitives

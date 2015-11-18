@@ -43,8 +43,8 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.Alpha;
-import javax.media.j3d.Interpolator;
+import org.scijava.java3d.Alpha;
+import org.scijava.java3d.Interpolator;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

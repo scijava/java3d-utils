@@ -48,13 +48,13 @@ import java.awt.event.MouseWheelListener;
 import java.util.Enumeration;
 import java.util.LinkedList;
 
-import javax.media.j3d.Behavior;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.media.j3d.WakeupCriterion;
-import javax.media.j3d.WakeupOnAWTEvent;
-import javax.media.j3d.WakeupOnBehaviorPost;
-import javax.media.j3d.WakeupOr;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.java3d.WakeupCriterion;
+import org.scijava.java3d.WakeupOnAWTEvent;
+import org.scijava.java3d.WakeupOnBehaviorPost;
+import org.scijava.java3d.WakeupOr;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 

@@ -44,12 +44,12 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>j3dcore</artifactId>
-			<version>1.6.0-scijava-1</version>
+			<version>1.6.0-scijava-2</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>vecmath</artifactId>
-			<version>1.6.0-scijava-1</version>
+			<version>1.6.0-scijava-2</version>
 		</dependency>
 	</dependencies>
 

@@ -39,9 +39,9 @@
 
 package com.sun.j3d.utils.behaviors.interpolators;
 
-import javax.vecmath.Point3f;
-import javax.vecmath.Quat4f;
-import javax.vecmath.Vector3f;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Quat4f;
+import org.scijava.vecmath.Vector3f;
 
 
 /**

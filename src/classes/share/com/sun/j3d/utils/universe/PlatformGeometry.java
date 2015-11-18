@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.universe;
 
-import javax.media.j3d.BranchGroup;
+import org.scijava.java3d.BranchGroup;
 
 /**
  * This class holds any geometry that should be associated with the

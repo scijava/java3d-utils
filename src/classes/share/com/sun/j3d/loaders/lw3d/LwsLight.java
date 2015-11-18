@@ -45,19 +45,19 @@ import java.io.IOException;
 import java.io.StreamTokenizer;
 import java.util.Vector;
 
-import javax.media.j3d.Behavior;
-import javax.media.j3d.BoundingSphere;
-import javax.media.j3d.DirectionalLight;
-import javax.media.j3d.Light;
-import javax.media.j3d.PointLight;
-import javax.media.j3d.SpotLight;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Color3f;
-import javax.vecmath.Matrix4d;
-import javax.vecmath.Point3d;
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.BoundingSphere;
+import org.scijava.java3d.DirectionalLight;
+import org.scijava.java3d.Light;
+import org.scijava.java3d.PointLight;
+import org.scijava.java3d.SpotLight;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Matrix4d;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.loaders.ParsingErrorException;
 

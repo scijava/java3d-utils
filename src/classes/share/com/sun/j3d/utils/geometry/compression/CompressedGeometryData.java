@@ -39,10 +39,10 @@
 
 package com.sun.j3d.utils.geometry.compression;
 
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.J3DBuffer;
-import javax.media.j3d.Shape3D;
-import javax.vecmath.Point3d;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.J3DBuffer;
+import org.scijava.java3d.Shape3D;
+import org.scijava.vecmath.Point3d;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 

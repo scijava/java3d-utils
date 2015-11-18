@@ -50,13 +50,13 @@ import java.util.Enumeration;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
-import javax.media.j3d.Behavior;
-import javax.media.j3d.Group;
-import javax.media.j3d.Shape3D;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Matrix4d;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.Group;
+import org.scijava.java3d.Shape3D;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.vecmath.Matrix4d;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.loaders.IncorrectFormatException;
 import com.sun.j3d.loaders.ParsingErrorException;

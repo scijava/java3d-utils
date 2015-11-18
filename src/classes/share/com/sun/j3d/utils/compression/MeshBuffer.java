@@ -39,10 +39,10 @@
 
 package com.sun.j3d.utils.compression;
 
-import javax.vecmath.Color3f;
-import javax.vecmath.Color4f;
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Color4f;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3f;
 
 /**
  * This class mirrors the vertex mesh buffer stack supported by the geometry

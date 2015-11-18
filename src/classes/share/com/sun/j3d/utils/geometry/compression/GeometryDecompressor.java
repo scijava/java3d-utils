@@ -39,10 +39,10 @@
 
 package com.sun.j3d.utils.geometry.compression;
 
-import javax.media.j3d.CompressedGeometryHeader;
-import javax.vecmath.Color4f;
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.CompressedGeometryHeader;
+import org.scijava.vecmath.Color4f;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 

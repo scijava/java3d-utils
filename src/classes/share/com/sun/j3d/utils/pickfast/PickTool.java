@@ -39,28 +39,28 @@
 
 package com.sun.j3d.utils.pickfast;
 
-import javax.media.j3d.Bounds;
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Group;
-import javax.media.j3d.Link;
-import javax.media.j3d.Locale;
-import javax.media.j3d.Morph;
-import javax.media.j3d.Node;
-import javax.media.j3d.PickBounds;
-import javax.media.j3d.PickConeRay;
-import javax.media.j3d.PickConeSegment;
-import javax.media.j3d.PickCylinderRay;
-import javax.media.j3d.PickCylinderSegment;
-import javax.media.j3d.PickInfo;
-import javax.media.j3d.PickRay;
-import javax.media.j3d.PickSegment;
-import javax.media.j3d.PickShape;
-import javax.media.j3d.SceneGraphPath;
-import javax.media.j3d.Shape3D;
-import javax.media.j3d.Switch;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Point3d;
-import javax.vecmath.Vector3d;
+import org.scijava.java3d.Bounds;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Group;
+import org.scijava.java3d.Link;
+import org.scijava.java3d.Locale;
+import org.scijava.java3d.Morph;
+import org.scijava.java3d.Node;
+import org.scijava.java3d.PickBounds;
+import org.scijava.java3d.PickConeRay;
+import org.scijava.java3d.PickConeSegment;
+import org.scijava.java3d.PickCylinderRay;
+import org.scijava.java3d.PickCylinderSegment;
+import org.scijava.java3d.PickInfo;
+import org.scijava.java3d.PickRay;
+import org.scijava.java3d.PickSegment;
+import org.scijava.java3d.PickShape;
+import org.scijava.java3d.SceneGraphPath;
+import org.scijava.java3d.Shape3D;
+import org.scijava.java3d.Switch;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Vector3d;
 
 import com.sun.j3d.utils.geometry.Primitive;
 
@@ -99,7 +99,7 @@ import com.sun.j3d.utils.geometry.Primitive;
  * will be sorted by the distance from the start point of the pick shape to
  * the intersection point.
  *
- * @see Locale#pickClosest(int,int,javax.media.j3d.PickShape)
+ * @see Locale#pickClosest(int,int,org.scijava.java3d.PickShape)
  */
 public class PickTool {
 

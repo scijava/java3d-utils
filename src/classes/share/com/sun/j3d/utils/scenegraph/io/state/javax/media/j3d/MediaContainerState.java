@@ -45,7 +45,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-import javax.media.j3d.MediaContainer;
+import org.scijava.java3d.MediaContainer;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -109,7 +109,7 @@ public class MediaContainerState extends NodeComponentState {
 	}
 
 	@Override
-	protected javax.media.j3d.SceneGraphObject createNode() {
+	protected org.scijava.java3d.SceneGraphObject createNode() {
 		return new MediaContainer();
 	}
 

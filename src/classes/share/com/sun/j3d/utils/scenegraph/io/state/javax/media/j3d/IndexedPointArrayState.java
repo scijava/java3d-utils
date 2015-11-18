@@ -43,8 +43,8 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.IndexedPointArray;
-import javax.media.j3d.SceneGraphObject;
+import org.scijava.java3d.IndexedPointArray;
+import org.scijava.java3d.SceneGraphObject;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -82,7 +82,7 @@ public class IndexedPointArrayState extends IndexedGeometryArrayState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new IndexedPointArray( vertexCount, vertexFormat, texCoordSetCount, texCoordSetMap, indexCount );
     }
 

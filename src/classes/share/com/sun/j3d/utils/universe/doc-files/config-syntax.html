@@ -945,7 +945,7 @@ RELATIVE_TO_COEXISTENCE, RELATIVE_TO_WINDOW</code>, or
 default is <code>RELATIVE_TO_COEXISTENCE</code> if 
 <a href="#CoexistenceCenteringEnable">CoexistenceCenteringEnable</a> is false,
 otherwise the normal default applies.  See the
-<a href="../../../../../../javax/media/j3d/View.html#setWindowEyepointPolicy(int)">setWindowEyepointPolicy</a> View method.
+<a href="../../../../../../org/scijava/java3d/View.html#setWindowEyepointPolicy(int)">setWindowEyepointPolicy</a> View method.
 <p>
 For the <code>RELATIVE_TO_SCREEN</code> and <code>RELATIVE_TO_WINDOW</code>
 policies, the eyepoint is set by using the setLeftManualEyeInImagePlate() and
@@ -966,8 +966,8 @@ or <code>PHYSICAL_WORLD</code>.  The normal Java 3D default value for both is
 values are <code>VIRTUAL_WORLD</code> if 
 <a href="#CoexistenceCenteringEnable">CoexistenceCenteringEnable</a> is false,
 otherwise the normal defaults apply.  See the
-<a href="../../../../../../javax/media/j3d/View.html#setWindowMovementPolicy(int)">setWindowMovementPolicy</a> and 
-<a href="../../../../../../javax/media/j3d/View.html#setWindowResizePolicy(int)">setWindowResizePolicy</a> View methods.</p>
+<a href="../../../../../../org/scijava/java3d/View.html#setWindowMovementPolicy(int)">setWindowMovementPolicy</a> and 
+<a href="../../../../../../org/scijava/java3d/View.html#setWindowResizePolicy(int)">setWindowResizePolicy</a> View methods.</p>
 
 <h4>
 <a NAME="CenterEyeInCoexistence"></a>CenterEyeInCoexistence</h4>
@@ -1032,16 +1032,16 @@ The default value for this property is 1.0.
 The string values of these properties may be either <code>PHYSICAL_EYE,
 PHYSICAL_SCREEN, VIRTUAL_EYE</code>, or <code>VIRTUAL_SCREEN</code>.  The
 default policies are <code>PHYSICAL_EYE</code>.  See the
-<a href="../../../../../../javax/media/j3d/View.html#setFrontClipPolicy(int)">setFrontClipPolicy</a> and 
-<a href="../../../../../../javax/media/j3d/View.html#setBackClipPolicy(int)">setBackClipPolicy</a> View methods.
+<a href="../../../../../../org/scijava/java3d/View.html#setFrontClipPolicy(int)">setFrontClipPolicy</a> and 
+<a href="../../../../../../org/scijava/java3d/View.html#setBackClipPolicy(int)">setBackClipPolicy</a> View methods.
 
 <h4>
 <a NAME="FrontClipDistance"></a>FrontClipDistance<br>
 <a NAME="BackClipDistance"></a>BackClipDistance</h4>
 These property values are numbers.  The defaults are 0.1 and 10.0 
 respectively. See the 
-<a href="../../../../../../javax/media/j3d/View.html#setFrontClipDistance(double)">setFrontClipDistance</a> and 
-<a href="../../../../../../javax/media/j3d/View.html#setBackClipDistance(double)">setBackClipDistance</a> View methods.</p>
+<a href="../../../../../../org/scijava/java3d/View.html#setFrontClipDistance(double)">setFrontClipDistance</a> and 
+<a href="../../../../../../org/scijava/java3d/View.html#setBackClipDistance(double)">setBackClipDistance</a> View methods.</p>
 <p>
 With the default clip policies of <code>PHYSICAL_EYE</code> the clip distances
 are measured relative to the eye in physical units, so the clip distances
@@ -1283,13 +1283,13 @@ sets.
 <h4>
 <a NAME="SchedulingInterval"></a>SchedulingInterval</h4>
 A number indicating the scheduling interval for this behavior. See the 
-<a href="../../../../../../javax/media/j3d/Behavior.html#setSchedulingInterval(int)">setSchedulingInterval</a>
+<a href="../../../../../../org/scijava/java3d/Behavior.html#setSchedulingInterval(int)">setSchedulingInterval</a>
 method of Behavior.
 
 <h4>
 <a NAME="HomeTransform"></a>HomeTransform</h4>
 See the ViewPlatformBehavior method 
-<a href="../../behaviors/vp/ViewPlatformBehavior.html#setHomeTransform(javax.media.j3d.Transform3D)">setHomeTransform</a>.
+<a href="../../behaviors/vp/ViewPlatformBehavior.html#setHomeTransform(org.scijava.java3d.Transform3D)">setHomeTransform</a>.
 The property value must be a 4D matrix.
 </blockquote>
 <p>
@@ -1447,7 +1447,7 @@ Returns a 4D matrix that translates by the given X, Y, and Z values.</p>
 <p>
 Returns a 4D matrix that rotates by the given Euler angles around static X, Y,
 and Z basis vectors: first about X, then Y, and then Z.  See the 
-<a href="../../../../../../javax/media/j3d/Transform3D.html#setEuler(javax.vecmath.Vector3d)">setEuler</a>
+<a href="../../../../../../org/scijava/java3d/Transform3D.html#setEuler(org.scijava.vecmath.Vector3d)">setEuler</a>
 method of Transform3D.</p>
 <hr>
 

@@ -41,7 +41,7 @@ package com.sun.j3d.utils.scenegraph.transparency;
 
 import java.util.Comparator;
 
-import javax.media.j3d.TransparencySortGeom;
+import org.scijava.java3d.TransparencySortGeom;
 
 /**
  * Sample TransparencySortComparator which has the same functionality as

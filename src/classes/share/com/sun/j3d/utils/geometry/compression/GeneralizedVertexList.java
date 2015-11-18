@@ -41,17 +41,17 @@ package com.sun.j3d.utils.geometry.compression;
 
 import java.util.ArrayList;
 
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.GeometryStripArray;
-import javax.media.j3d.LineStripArray;
-import javax.media.j3d.PointArray;
-import javax.media.j3d.TriangleArray;
-import javax.media.j3d.TriangleFanArray;
-import javax.media.j3d.TriangleStripArray;
-import javax.vecmath.Color3f;
-import javax.vecmath.Color4f;
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.GeometryStripArray;
+import org.scijava.java3d.LineStripArray;
+import org.scijava.java3d.PointArray;
+import org.scijava.java3d.TriangleArray;
+import org.scijava.java3d.TriangleFanArray;
+import org.scijava.java3d.TriangleStripArray;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Color4f;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3f;
 
 /**
  * The GeneralizedVertexList class is a variable-size list used to

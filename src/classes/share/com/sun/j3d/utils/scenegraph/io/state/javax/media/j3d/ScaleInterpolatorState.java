@@ -43,9 +43,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.ScaleInterpolator;
-import javax.media.j3d.SceneGraphObject;
-import javax.media.j3d.TransformGroup;
+import org.scijava.java3d.ScaleInterpolator;
+import org.scijava.java3d.SceneGraphObject;
+import org.scijava.java3d.TransformGroup;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -74,7 +74,7 @@ public class ScaleInterpolatorState extends TransformInterpolatorState {
 
     @Override
     public SceneGraphObject createNode( Class j3dClass ) {
-        return createNode( j3dClass, new Class[] { javax.media.j3d.Alpha.class,
+        return createNode( j3dClass, new Class[] { org.scijava.java3d.Alpha.class,
                                                     TransformGroup.class },
                                       new Object[] { null,
                                                      null } );
@@ -82,7 +82,7 @@ public class ScaleInterpolatorState extends TransformInterpolatorState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new ScaleInterpolator( null, null );
     }
 }

@@ -54,7 +54,7 @@
 
 package com.sun.j3d.utils.geometry;
 
-import javax.vecmath.Point3f;
+import org.scijava.vecmath.Point3f;
 
 
 class Simple {

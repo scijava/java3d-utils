@@ -43,10 +43,10 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.PointLight;
-import javax.media.j3d.SpotLight;
-import javax.vecmath.Point3f;
-import javax.vecmath.Vector3f;
+import org.scijava.java3d.PointLight;
+import org.scijava.java3d.SpotLight;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Vector3f;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -97,7 +97,7 @@ public class SpotLightState extends LightState {
 	}
 
 	@Override
-	protected javax.media.j3d.SceneGraphObject createNode() {
+	protected org.scijava.java3d.SceneGraphObject createNode() {
 		return new SpotLight();
 	}
 

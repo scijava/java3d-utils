@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.geometry.compression;
 
-import javax.media.j3d.GeometryArray;
+import org.scijava.java3d.GeometryArray;
 
 /**
  * The compressed geometry object is used to store geometry in a

@@ -47,7 +47,7 @@ package com.sun.j3d.utils.scenegraph.io;
  *
  * This normally means the Behavior is not present in the classpath.
  */
-public class UnresolvedBehavior extends javax.media.j3d.Behavior {
+public class UnresolvedBehavior extends org.scijava.java3d.Behavior {
 
     @Override
     public void initialize() {

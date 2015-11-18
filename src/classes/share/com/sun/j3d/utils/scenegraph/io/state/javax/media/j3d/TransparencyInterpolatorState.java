@@ -43,9 +43,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.SceneGraphObject;
-import javax.media.j3d.TransparencyAttributes;
-import javax.media.j3d.TransparencyInterpolator;
+import org.scijava.java3d.SceneGraphObject;
+import org.scijava.java3d.TransparencyAttributes;
+import org.scijava.java3d.TransparencyInterpolator;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -97,14 +97,14 @@ public class TransparencyInterpolatorState extends InterpolatorState {
 
     @Override
     public SceneGraphObject createNode( Class j3dClass ) {
-        return createNode( j3dClass, new Class[] { javax.media.j3d.Alpha.class,
-                                                    javax.media.j3d.TransparencyAttributes.class },
+        return createNode( j3dClass, new Class[] { org.scijava.java3d.Alpha.class,
+                                                    org.scijava.java3d.TransparencyAttributes.class },
                                       new Object[] { null,
                                                      null } );
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new TransparencyInterpolator( null, null );
     }
 

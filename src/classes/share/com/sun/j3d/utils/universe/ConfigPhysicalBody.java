@@ -39,10 +39,10 @@
 
 package com.sun.j3d.utils.universe;
 
-import javax.media.j3d.PhysicalBody;
-import javax.media.j3d.Transform3D;
-import javax.vecmath.Matrix4d;
-import javax.vecmath.Point3d;
+import org.scijava.java3d.PhysicalBody;
+import org.scijava.java3d.Transform3D;
+import org.scijava.vecmath.Matrix4d;
+import org.scijava.vecmath.Point3d;
 
 class ConfigPhysicalBody extends ConfigObject {
 

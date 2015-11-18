@@ -44,7 +44,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 
-import javax.media.j3d.BranchGroup;
+import org.scijava.java3d.BranchGroup;
 
 import com.sun.j3d.utils.scenegraph.io.state.javax.media.j3d.SceneGraphObjectState;
 
@@ -126,7 +126,7 @@ public class StreamControl extends Controller {
             symbolTable.endUnsavedNodeComponentFrame();
 
             if (symbolTable.branchGraphHasDependencies( symbol.branchGraphID ))
-                throw new javax.media.j3d.DanglingReferenceException();
+                throw new org.scijava.java3d.DanglingReferenceException();
 
             symbolTable.clearUnshared();
             symbolTable.writeTable( outputStream );

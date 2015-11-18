@@ -44,11 +44,11 @@ package com.sun.j3d.loaders.lw3d;
 import java.io.IOException;
 import java.io.StreamTokenizer;
 
-import javax.media.j3d.BoundingSphere;
-import javax.media.j3d.Fog;
-import javax.media.j3d.LinearFog;
-import javax.vecmath.Color3f;
-import javax.vecmath.Point3d;
+import org.scijava.java3d.BoundingSphere;
+import org.scijava.java3d.Fog;
+import org.scijava.java3d.LinearFog;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Point3d;
 
 import com.sun.j3d.loaders.ParsingErrorException;
 

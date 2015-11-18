@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.geometry.compression;
 
-import javax.vecmath.Vector3f;
+import org.scijava.vecmath.Vector3f;
 
 /**
  * This class represents a normal in a compression stream. It maintains both

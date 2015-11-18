@@ -43,10 +43,10 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.BoundingLeaf;
-import javax.media.j3d.Fog;
-import javax.media.j3d.Group;
-import javax.vecmath.Color3f;
+import org.scijava.java3d.BoundingLeaf;
+import org.scijava.java3d.Fog;
+import org.scijava.java3d.Group;
+import org.scijava.vecmath.Color3f;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

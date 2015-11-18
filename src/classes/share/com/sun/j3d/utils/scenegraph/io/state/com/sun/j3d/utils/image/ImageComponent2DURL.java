@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.scenegraph.io.state.com.sun.j3d.utils.image;
 
-public class ImageComponent2DURL extends javax.media.j3d.ImageComponent2D {
+public class ImageComponent2DURL extends org.scijava.java3d.ImageComponent2D {
 
     private java.net.URL url = null;
 

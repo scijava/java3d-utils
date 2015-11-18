@@ -43,9 +43,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.Appearance;
-import javax.media.j3d.Geometry;
-import javax.media.j3d.Shape3D;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.Geometry;
+import org.scijava.java3d.Shape3D;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -113,7 +113,7 @@ public class Shape3DState extends LeafState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new Shape3D();
     }
 

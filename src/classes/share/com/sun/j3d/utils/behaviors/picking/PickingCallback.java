@@ -39,7 +39,7 @@
 
 package com.sun.j3d.utils.behaviors.picking;
 
-import javax.media.j3d.TransformGroup;
+import org.scijava.java3d.TransformGroup;
 
 /**
  * @deprecated As of Java 3D version 1.2, replaced by

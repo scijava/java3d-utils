@@ -48,18 +48,18 @@ import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.util.Hashtable;
 
-import javax.media.j3d.Appearance;
-import javax.media.j3d.ImageComponent;
-import javax.media.j3d.ImageComponent2D;
-import javax.media.j3d.Material;
-import javax.media.j3d.Node;
-import javax.media.j3d.QuadArray;
-import javax.media.j3d.Shape3D;
-import javax.media.j3d.Texture;
-import javax.media.j3d.Texture2D;
-import javax.media.j3d.TransparencyAttributes;
-import javax.vecmath.Color3f;
-import javax.vecmath.Color4f;
+import org.scijava.java3d.Appearance;
+import org.scijava.java3d.ImageComponent;
+import org.scijava.java3d.ImageComponent2D;
+import org.scijava.java3d.Material;
+import org.scijava.java3d.Node;
+import org.scijava.java3d.QuadArray;
+import org.scijava.java3d.Shape3D;
+import org.scijava.java3d.Texture;
+import org.scijava.java3d.Texture2D;
+import org.scijava.java3d.TransparencyAttributes;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Color4f;
 
 /**
  * A Text2D object is a representation of a string as a texture mapped

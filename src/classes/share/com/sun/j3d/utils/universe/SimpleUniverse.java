@@ -43,13 +43,13 @@ import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsEnvironment;
 import java.net.URL;
 
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.GraphicsConfigTemplate3D;
-import javax.media.j3d.HiResCoord;
-import javax.media.j3d.Locale;
-import javax.media.j3d.View;
-import javax.media.j3d.VirtualUniverse;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.GraphicsConfigTemplate3D;
+import org.scijava.java3d.HiResCoord;
+import org.scijava.java3d.Locale;
+import org.scijava.java3d.View;
+import org.scijava.java3d.VirtualUniverse;
 
 import com.sun.j3d.utils.geometry.Primitive;
 

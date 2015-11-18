@@ -41,12 +41,12 @@ package com.sun.j3d.utils.behaviors.keyboard;
 
 import java.awt.event.KeyEvent;
 
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
-import javax.vecmath.Matrix4d;
-import javax.vecmath.Point3d;
-import javax.vecmath.Quat4d;
-import javax.vecmath.Vector3d;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.vecmath.Matrix4d;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Quat4d;
+import org.scijava.vecmath.Vector3d;
 
 /**
  * This is the KeyNavigator class.  It accumulates AWT key events (key

@@ -39,9 +39,9 @@
 
 package com.sun.j3d.utils.behaviors.vp;
 
-import javax.media.j3d.Behavior;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.TransformGroup;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.TransformGroup;
 
 import com.sun.j3d.utils.universe.ViewingPlatform;
 

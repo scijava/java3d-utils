@@ -43,8 +43,8 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.TransformGroup;
-import javax.media.j3d.TransformInterpolator;
+import org.scijava.java3d.TransformGroup;
+import org.scijava.java3d.TransformInterpolator;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

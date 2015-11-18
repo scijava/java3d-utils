@@ -47,9 +47,9 @@ import java.io.DataOutput;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
-import javax.media.j3d.GeometryArray;
-import javax.media.j3d.IndexedGeometryArray;
-import javax.media.j3d.IndexedGeometryStripArray;
+import org.scijava.java3d.GeometryArray;
+import org.scijava.java3d.IndexedGeometryArray;
+import org.scijava.java3d.IndexedGeometryStripArray;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

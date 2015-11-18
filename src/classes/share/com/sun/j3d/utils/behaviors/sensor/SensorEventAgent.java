@@ -43,8 +43,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.media.j3d.Sensor;
-import javax.media.j3d.Transform3D;
+import org.scijava.java3d.Sensor;
+import org.scijava.java3d.Transform3D;
 
 import com.sun.j3d.utils.timer.J3DTimer;
 

@@ -43,7 +43,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-import javax.media.j3d.CapabilityNotSetException;
+import org.scijava.java3d.CapabilityNotSetException;
 
 //
 // The compressed geometry file format supported by this class has a 32

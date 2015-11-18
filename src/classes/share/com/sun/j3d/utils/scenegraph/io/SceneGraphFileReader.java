@@ -41,9 +41,9 @@ package com.sun.j3d.utils.scenegraph.io;
 
 import java.io.IOException;
 
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.SceneGraphObject;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.SceneGraphObject;
 
 import com.sun.j3d.utils.scenegraph.io.retained.RandomAccessFileControl;
 import com.sun.j3d.utils.universe.ConfiguredUniverse;

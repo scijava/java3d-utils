@@ -39,9 +39,9 @@
 
 package com.sun.j3d.audioengines;
 
-import javax.media.j3d.AudioDevice;
-import javax.media.j3d.PhysicalEnvironment;
-import javax.media.j3d.Sound;
+import org.scijava.java3d.AudioDevice;
+import org.scijava.java3d.PhysicalEnvironment;
+import org.scijava.java3d.Sound;
 
 /**
  * The AudioEngine Class defines an audio output device that generates

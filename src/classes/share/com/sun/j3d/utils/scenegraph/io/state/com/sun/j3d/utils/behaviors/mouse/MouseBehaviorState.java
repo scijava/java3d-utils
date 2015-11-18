@@ -43,7 +43,7 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.TransformGroup;
+import org.scijava.java3d.TransformGroup;
 
 import com.sun.j3d.utils.behaviors.mouse.MouseBehavior;
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;

@@ -52,13 +52,13 @@ public interface SceneGraphObjectReferenceControl {
      *
      * Use only during the save cycle
      */
-    public int addReference( javax.media.j3d.SceneGraphObject object );
+    public int addReference( org.scijava.java3d.SceneGraphObject object );
 
     /**
      * Given a nodeID return the corresponding scene graph object.
      *
      * Use only during the load cycle
      */
-    public javax.media.j3d.SceneGraphObject resolveReference( int nodeID );
+    public org.scijava.java3d.SceneGraphObject resolveReference( int nodeID );
 }
 

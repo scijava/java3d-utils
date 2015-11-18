@@ -42,8 +42,8 @@ package com.sun.j3d.loaders.lw3d;
 import java.io.IOException;
 import java.io.StreamTokenizer;
 
-import javax.media.j3d.Behavior;
-import javax.media.j3d.TransformGroup;
+import org.scijava.java3d.Behavior;
+import org.scijava.java3d.TransformGroup;
 
 import com.sun.j3d.internal.J3dUtilsI18N;
 import com.sun.j3d.loaders.IncorrectFormatException;

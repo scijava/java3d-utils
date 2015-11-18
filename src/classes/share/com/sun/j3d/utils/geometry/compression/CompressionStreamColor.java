@@ -39,8 +39,8 @@
 
 package com.sun.j3d.utils.geometry.compression;
 
-import javax.vecmath.Color3f;
-import javax.vecmath.Color4f;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Color4f;
 
 /**
  * This class represents a color in a compression stream. It maintains both

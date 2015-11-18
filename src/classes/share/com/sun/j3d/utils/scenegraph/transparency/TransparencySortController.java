@@ -41,9 +41,9 @@ package com.sun.j3d.utils.scenegraph.transparency;
 
 import java.util.Comparator;
 
-import javax.media.j3d.TransparencySortGeom;
-import javax.media.j3d.TransparencySortMap;
-import javax.media.j3d.View;
+import org.scijava.java3d.TransparencySortGeom;
+import org.scijava.java3d.TransparencySortMap;
+import org.scijava.java3d.View;
 
 /**
  * This class controls the Transparency Sorting scheme used by Java 3D when

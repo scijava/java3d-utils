@@ -39,9 +39,9 @@
 
 package com.sun.j3d.utils.universe ;
 
-import javax.media.j3d.Bounds;
-import javax.media.j3d.Transform3D;
-import javax.vecmath.Matrix4d;
+import org.scijava.java3d.Bounds;
+import org.scijava.java3d.Transform3D;
+import org.scijava.vecmath.Matrix4d;
 
 import com.sun.j3d.utils.behaviors.vp.ViewPlatformBehavior;
 

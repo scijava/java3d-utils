@@ -53,17 +53,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.Node;
-import javax.media.j3d.PhysicalBody;
-import javax.media.j3d.PhysicalEnvironment;
-import javax.media.j3d.Screen3D;
-import javax.media.j3d.Sensor;
-import javax.media.j3d.Transform3D;
-import javax.media.j3d.View;
-import javax.media.j3d.ViewPlatform;
-import javax.vecmath.Point3d;
-import javax.vecmath.Vector3d;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.Node;
+import org.scijava.java3d.PhysicalBody;
+import org.scijava.java3d.PhysicalEnvironment;
+import org.scijava.java3d.Screen3D;
+import org.scijava.java3d.Sensor;
+import org.scijava.java3d.Transform3D;
+import org.scijava.java3d.View;
+import org.scijava.java3d.ViewPlatform;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Vector3d;
 
 /**
  * Provides methods to extract synchronized transform information from a View.

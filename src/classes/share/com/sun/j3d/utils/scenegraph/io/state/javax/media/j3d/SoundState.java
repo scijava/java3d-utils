@@ -43,9 +43,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.BoundingLeaf;
-import javax.media.j3d.MediaContainer;
-import javax.media.j3d.Sound;
+import org.scijava.java3d.BoundingLeaf;
+import org.scijava.java3d.MediaContainer;
+import org.scijava.java3d.Sound;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;

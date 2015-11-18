@@ -43,7 +43,7 @@ package com.sun.j3d.loaders.lw3d;
 
 import java.util.Vector;
 
-import javax.media.j3d.TransformGroup;
+import org.scijava.java3d.TransformGroup;
 
 /**
  * This is an interface which is implemented by LwsObject,

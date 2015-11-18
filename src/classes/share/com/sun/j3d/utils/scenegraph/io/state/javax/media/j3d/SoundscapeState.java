@@ -43,9 +43,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-import javax.media.j3d.AuralAttributes;
-import javax.media.j3d.BoundingLeaf;
-import javax.media.j3d.Soundscape;
+import org.scijava.java3d.AuralAttributes;
+import org.scijava.java3d.BoundingLeaf;
+import org.scijava.java3d.Soundscape;
 
 import com.sun.j3d.utils.scenegraph.io.retained.Controller;
 import com.sun.j3d.utils.scenegraph.io.retained.SymbolTableData;
@@ -95,7 +95,7 @@ public class SoundscapeState extends LeafState {
     }
 
     @Override
-    protected javax.media.j3d.SceneGraphObject createNode() {
+    protected org.scijava.java3d.SceneGraphObject createNode() {
         return new Soundscape();
     }
 

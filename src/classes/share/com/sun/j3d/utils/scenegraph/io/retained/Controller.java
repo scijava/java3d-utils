@@ -50,29 +50,29 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ListIterator;
 
-import javax.media.j3d.BoundingBox;
-import javax.media.j3d.BoundingPolytope;
-import javax.media.j3d.BoundingSphere;
-import javax.media.j3d.Bounds;
-import javax.media.j3d.BranchGroup;
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.CapabilityNotSetException;
-import javax.media.j3d.SceneGraphObject;
-import javax.media.j3d.SharedGroup;
-import javax.media.j3d.Transform3D;
-import javax.vecmath.Color3f;
-import javax.vecmath.Color4f;
-import javax.vecmath.Matrix4d;
-import javax.vecmath.Point3d;
-import javax.vecmath.Point3f;
-import javax.vecmath.Quat4f;
-import javax.vecmath.Tuple3d;
-import javax.vecmath.Tuple3f;
-import javax.vecmath.Tuple4d;
-import javax.vecmath.Tuple4f;
-import javax.vecmath.Vector3f;
-import javax.vecmath.Vector4d;
-import javax.vecmath.Vector4f;
+import org.scijava.java3d.BoundingBox;
+import org.scijava.java3d.BoundingPolytope;
+import org.scijava.java3d.BoundingSphere;
+import org.scijava.java3d.Bounds;
+import org.scijava.java3d.BranchGroup;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.CapabilityNotSetException;
+import org.scijava.java3d.SceneGraphObject;
+import org.scijava.java3d.SharedGroup;
+import org.scijava.java3d.Transform3D;
+import org.scijava.vecmath.Color3f;
+import org.scijava.vecmath.Color4f;
+import org.scijava.vecmath.Matrix4d;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Point3f;
+import org.scijava.vecmath.Quat4f;
+import org.scijava.vecmath.Tuple3d;
+import org.scijava.vecmath.Tuple3f;
+import org.scijava.vecmath.Tuple4d;
+import org.scijava.vecmath.Tuple4f;
+import org.scijava.vecmath.Vector3f;
+import org.scijava.vecmath.Vector4d;
+import org.scijava.vecmath.Vector4f;
 
 import com.sun.j3d.utils.scenegraph.io.NamedObjectException;
 import com.sun.j3d.utils.scenegraph.io.ObjectNotLoadedException;
@@ -562,68 +562,68 @@ public abstract class Controller extends java.lang.Object {
     // The order of this array dictates the ID's of classes therefore
     // changing the order of this array will break backward compatability
     Class[] j3dClasses = new Class[] {
-        javax.media.j3d.Alpha.class,
-        javax.media.j3d.Appearance.class,
-        javax.media.j3d.Billboard.class,
-        javax.media.j3d.BranchGroup.class,
-        javax.media.j3d.ColoringAttributes.class,
-        javax.media.j3d.ConeSound.class,
-        javax.media.j3d.DecalGroup.class,
-        javax.media.j3d.DirectionalLight.class,
-        javax.media.j3d.DistanceLOD.class,
-        javax.media.j3d.ExponentialFog.class,
-        javax.media.j3d.Font3D.class,
-        javax.media.j3d.Group.class,
-        javax.media.j3d.ImageComponent2D.class,
-        javax.media.j3d.ImageComponent3D.class,
-        javax.media.j3d.IndexedLineArray.class,
-        javax.media.j3d.IndexedLineStripArray.class,
-        javax.media.j3d.IndexedPointArray.class,
-        javax.media.j3d.IndexedQuadArray.class,
-        javax.media.j3d.IndexedTriangleArray.class,
-        javax.media.j3d.IndexedTriangleFanArray.class,
-        javax.media.j3d.IndexedTriangleStripArray.class,
-        javax.media.j3d.LinearFog.class,
-        javax.media.j3d.LineArray.class,
-        javax.media.j3d.LineAttributes.class,
-        javax.media.j3d.LineStripArray.class,
-        javax.media.j3d.Link.class,
-        javax.media.j3d.Material.class,
-        javax.media.j3d.Morph.class,
-        javax.media.j3d.OrderedGroup.class,
-        javax.media.j3d.OrientedShape3D.class,
-        javax.media.j3d.PathInterpolator.class,
-        javax.media.j3d.PointArray.class,
-        javax.media.j3d.PointAttributes.class,
-        javax.media.j3d.PositionInterpolator.class,
-        javax.media.j3d.PositionPathInterpolator.class,
-        javax.media.j3d.QuadArray.class,
-        javax.media.j3d.RenderingAttributes.class,
-        javax.media.j3d.RotationInterpolator.class,
-        javax.media.j3d.RotationPathInterpolator.class,
-        javax.media.j3d.RotPosPathInterpolator.class,
-        javax.media.j3d.RotPosScalePathInterpolator.class,
-        javax.media.j3d.ScaleInterpolator.class,
-        javax.media.j3d.Shape3D.class,
-        javax.media.j3d.SharedGroup.class,
-        javax.media.j3d.Soundscape.class,
-        javax.media.j3d.SpotLight.class,
-        javax.media.j3d.Switch.class,
-        javax.media.j3d.SwitchValueInterpolator.class,
-        javax.media.j3d.Text3D.class,
-        javax.media.j3d.Texture2D.class,
-        javax.media.j3d.Texture3D.class,
-        javax.media.j3d.TextureAttributes.class,
-        javax.media.j3d.TextureCubeMap.class,
-        javax.media.j3d.TextureUnitState.class,
-        javax.media.j3d.TransformGroup.class,
-        javax.media.j3d.TransformInterpolator.class,
-        javax.media.j3d.TransparencyAttributes.class,
-        javax.media.j3d.TransparencyInterpolator.class,
-        javax.media.j3d.TriangleArray.class,
-        javax.media.j3d.TriangleFanArray.class,
-        javax.media.j3d.TriangleStripArray.class,
-        javax.media.j3d.ViewPlatform.class
+        org.scijava.java3d.Alpha.class,
+        org.scijava.java3d.Appearance.class,
+        org.scijava.java3d.Billboard.class,
+        org.scijava.java3d.BranchGroup.class,
+        org.scijava.java3d.ColoringAttributes.class,
+        org.scijava.java3d.ConeSound.class,
+        org.scijava.java3d.DecalGroup.class,
+        org.scijava.java3d.DirectionalLight.class,
+        org.scijava.java3d.DistanceLOD.class,
+        org.scijava.java3d.ExponentialFog.class,
+        org.scijava.java3d.Font3D.class,
+        org.scijava.java3d.Group.class,
+        org.scijava.java3d.ImageComponent2D.class,
+        org.scijava.java3d.ImageComponent3D.class,
+        org.scijava.java3d.IndexedLineArray.class,
+        org.scijava.java3d.IndexedLineStripArray.class,
+        org.scijava.java3d.IndexedPointArray.class,
+        org.scijava.java3d.IndexedQuadArray.class,
+        org.scijava.java3d.IndexedTriangleArray.class,
+        org.scijava.java3d.IndexedTriangleFanArray.class,
+        org.scijava.java3d.IndexedTriangleStripArray.class,
+        org.scijava.java3d.LinearFog.class,
+        org.scijava.java3d.LineArray.class,
+        org.scijava.java3d.LineAttributes.class,
+        org.scijava.java3d.LineStripArray.class,
+        org.scijava.java3d.Link.class,
+        org.scijava.java3d.Material.class,
+        org.scijava.java3d.Morph.class,
+        org.scijava.java3d.OrderedGroup.class,
+        org.scijava.java3d.OrientedShape3D.class,
+        org.scijava.java3d.PathInterpolator.class,
+        org.scijava.java3d.PointArray.class,
+        org.scijava.java3d.PointAttributes.class,
+        org.scijava.java3d.PositionInterpolator.class,
+        org.scijava.java3d.PositionPathInterpolator.class,
+        org.scijava.java3d.QuadArray.class,
+        org.scijava.java3d.RenderingAttributes.class,
+        org.scijava.java3d.RotationInterpolator.class,
+        org.scijava.java3d.RotationPathInterpolator.class,
+        org.scijava.java3d.RotPosPathInterpolator.class,
+        org.scijava.java3d.RotPosScalePathInterpolator.class,
+        org.scijava.java3d.ScaleInterpolator.class,
+        org.scijava.java3d.Shape3D.class,
+        org.scijava.java3d.SharedGroup.class,
+        org.scijava.java3d.Soundscape.class,
+        org.scijava.java3d.SpotLight.class,
+        org.scijava.java3d.Switch.class,
+        org.scijava.java3d.SwitchValueInterpolator.class,
+        org.scijava.java3d.Text3D.class,
+        org.scijava.java3d.Texture2D.class,
+        org.scijava.java3d.Texture3D.class,
+        org.scijava.java3d.TextureAttributes.class,
+        org.scijava.java3d.TextureCubeMap.class,
+        org.scijava.java3d.TextureUnitState.class,
+        org.scijava.java3d.TransformGroup.class,
+        org.scijava.java3d.TransformInterpolator.class,
+        org.scijava.java3d.TransparencyAttributes.class,
+        org.scijava.java3d.TransparencyInterpolator.class,
+        org.scijava.java3d.TriangleArray.class,
+        org.scijava.java3d.TriangleFanArray.class,
+        org.scijava.java3d.TriangleStripArray.class,
+        org.scijava.java3d.ViewPlatform.class
     };
 
     public Class getNodeClassFromID( int classID ) {
@@ -635,7 +635,7 @@ public abstract class Controller extends java.lang.Object {
 
     // TODO Use a HashMap to eliminate the linear search for the class
     //
-    public int getNodeClassID( javax.media.j3d.SceneGraphObject node ) {
+    public int getNodeClassID( org.scijava.java3d.SceneGraphObject node ) {
 
         int ret = -1;
         Class cl = node.getClass();

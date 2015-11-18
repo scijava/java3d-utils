@@ -43,14 +43,14 @@ import java.io.IOException;
 import java.io.StreamTokenizer;
 import java.util.ArrayList;
 
-import javax.media.j3d.BoundingSphere;
-import javax.media.j3d.Transform3D;
-import javax.vecmath.Matrix3d;
-import javax.vecmath.Matrix4d;
-import javax.vecmath.Point2d;
-import javax.vecmath.Point3d;
-import javax.vecmath.Point4d;
-import javax.vecmath.Vector3d;
+import org.scijava.java3d.BoundingSphere;
+import org.scijava.java3d.Transform3D;
+import org.scijava.vecmath.Matrix3d;
+import org.scijava.vecmath.Matrix4d;
+import org.scijava.vecmath.Point2d;
+import org.scijava.vecmath.Point3d;
+import org.scijava.vecmath.Point4d;
+import org.scijava.vecmath.Vector3d;
 
 class ConfigSexpression {
 

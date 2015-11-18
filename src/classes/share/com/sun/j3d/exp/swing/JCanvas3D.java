@@ -49,8 +49,8 @@ import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 import java.lang.reflect.InvocationTargetException;
 
-import javax.media.j3d.Canvas3D;
-import javax.media.j3d.GraphicsConfigTemplate3D;
+import org.scijava.java3d.Canvas3D;
+import org.scijava.java3d.GraphicsConfigTemplate3D;
 import javax.swing.JPanel;
 import javax.swing.event.AncestorListener;
 
@@ -117,7 +117,7 @@ public class JCanvas3D extends JPanel implements AncestorListener {
      */
     public final static int RESIZE_DELAYED = 1;
 
-    //TODO: FBA: this had been taken from javax.media.j3d.Screen3D. When/IF proper dpi handling comes one day, that part will have to be changed also for consistency
+    //TODO: FBA: this had been taken from org.scijava.java3d.Screen3D. When/IF proper dpi handling comes one day, that part will have to be changed also for consistency
     /** size of a pixel */
     private static double METERS_PER_PIXEL = 0.0254 / 90.0;
 
@@ -339,7 +339,7 @@ public class JCanvas3D extends JPanel implements AncestorListener {
         //        this.canvas.setDoubleBufferEnable( false );
         java.awt.image.BufferedImage bImage = new java.awt.image.BufferedImage(width,
                 height, java.awt.image.BufferedImage.TYPE_INT_ARGB);
-        javax.media.j3d.ImageComponent2D image = new javax.media.j3d.ImageComponent2D(javax.media.j3d.ImageComponent2D.FORMAT_RGBA8,
+        org.scijava.java3d.ImageComponent2D image = new org.scijava.java3d.ImageComponent2D(org.scijava.java3d.ImageComponent2D.FORMAT_RGBA8,
                 bImage, true, false );
         image.setCapability(image.ALLOW_IMAGE_READ);
         image.setCapability(image.ALLOW_IMAGE_WRITE);
