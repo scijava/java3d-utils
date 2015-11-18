@@ -34,7 +34,7 @@
 	</scm>
 
 	<properties>
-		<jogl.version>2.3.0</jogl.version>
+		<jogl.version>2.3.2</jogl.version>
 
 		<!-- NB: Avoid platform encoding warning when copying resources. -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

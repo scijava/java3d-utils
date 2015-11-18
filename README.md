@@ -2,7 +2,7 @@
 
 This is a Mavenized version of the latest
 [Java 3D](https://en.wikipedia.org/wiki/Java_3D) `j3dutils` component,
-[built on JOGL 2.3](http://forum.jogamp.org/Java3D-now-works-with-JOGL-2-0-td3732206.html).
+[built on JOGL 2.3.2](http://forum.jogamp.org/Java3D-now-works-with-JOGL-2-0-td3732206.html).
 
 ## Project status
 
