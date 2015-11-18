@@ -1,7 +1,7 @@
 The following additional provisions apply to third party software
 included as part of this product.
 
-    com/sun/j3d/internal/
+    org/scijava/java3d/internal/
 	Distance.java
 
 Copyright (c) 2004 Magic Software, Inc.  All Rights Reserved.

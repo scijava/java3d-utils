@@ -1,1 +1,1 @@
-com.sun.j3d.utils.geometry.GeometryServiceImpl
+org.scijava.java3d.utils.geometry.GeometryServiceImpl

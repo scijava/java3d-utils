@@ -1,7 +1,7 @@
 The following additional provisions apply to third party software
 included as part of this product.
 
-    com/sun/j3d/utils/applet/
+    org/scijava/java3d/utils/applet/
 	MainFrame.java - run an Applet as an application in AWT Frame
 	JMainFrame.java - run an Applet as an application in Swing JFrame
 

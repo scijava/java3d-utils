@@ -3,7 +3,7 @@ included as part of this product. No additional restrictions are
 placed on this source code, except that this attribution must be
 distributed with the source code.
 
-    com/sun/j3d/utils/geometry/
+    org/scijava/java3d/utils/geometry/
 	BBox.java, Basic.java, BottleNeck.java, Bridge.java,
 	Clean.java, Degenerate.java, Desperate.java, Distance.java,
 	EarClip.java, Heap.java, HeapNode.java, Left.java,
