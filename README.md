@@ -16,7 +16,7 @@ However, that approach has many downsides:
 
 * Users must install Java 3D manually, independent of the application.
 * Thus, at runtime, the application cannot manage the version of Java 3D in
-  the same was that it manages versions of its regular dependencies.
+  the same way that it manages versions of its regular dependencies.
 * Similarly, at build time, the Java 3D dependency must be treated
   specially (e.g., with Maven, using `provided` scope in the POM).
 
@@ -47,8 +47,8 @@ versions of Java 3D.
 ## Project status
 
 This project is a temporary fork, until upstream Java 3D makes some progress.
-See: [Java 3D: Use Maven to build, and publish Maven
-artifacts](http://forum.jogamp.org/Java-3D-Use-Maven-to-build-and-publish-Maven-artifacts-tp4035555p4035810.html)
+See:
+* [Java 3D: Use Maven to build, and publish Maven artifacts](http://forum.jogamp.org/Java-3D-Use-Maven-to-build-and-publish-Maven-artifacts-tp4035555p4035810.html)
 
 ## How to use it
 
@@ -56,7 +56,7 @@ To use from your Maven project, add the following dependency to your POM:
 
 ```xml
 <dependency>
-	<groupId>org.scijava</groupId>
+  <groupId>org.scijava</groupId>
   <artifactId>j3dutils</artifactId>
   <version>1.6.0-scijava-2</version>
 </dependency>
