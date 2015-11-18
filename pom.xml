@@ -4,7 +4,7 @@
 
 	<groupId>org.scijava</groupId>
 	<artifactId>j3dutils</artifactId>
-	<version>1.6.0-scijava-2-SNAPSHOT</version>
+	<version>1.6.0-scijava-2</version>
 
 	<name>Java 3D Utils</name>
 	<description>Utility functions for the Java 3D Graphics API</description>
@@ -35,7 +35,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/scijava/java3d-utils</connection>
 		<developerConnection>scm:git:git@github.com:scijava/java3d-utils</developerConnection>
-		<tag>HEAD</tag>
+		<tag>j3dutils-1.6.0-scijava-2</tag>
 		<url>https://github.com/scijava/java3d-utils</url>
 	</scm>
 
